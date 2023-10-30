@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<!--
+    #############################################
+    #  Copyright 2007-2017 All rights reserved  #
+    #  Theme      : ADP RESPONSIVE 3            #
+    #  Date       : 28/11/2017                  #
+    #  HM Version : 3.0 et                      #
+    #############################################
+--><html style="background-image:url('/captiveportals/orangeportailcaptif/images/noise.png'),url('/captiveportals/orangeportailcaptif/images/dot_pattern.png'),url('/captiveportals/orangeportailcaptif/images/bg-7fba7a803bca62aa8be5b514fd3be70b.jpg')">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0">
+<!-- JQUERY JS and CSS --><script type="text/javascript" src="/captiveportals/orangeportailcaptif/js/jquery.all.min.js"></script><link rel="stylesheet" type="text/css" media="screen" href="/captiveportals/orangeportailcaptif/css/jquery.all.min.css">
+<!-- CMS (CP EDITOR) JS and CSS --><script type="text/javascript" src="/captiveportals/orangeportailcaptif/js/ckeditor/ckeditor.js"></script><link rel="stylesheet" type="text/css" media="screen" href="/captiveportals/orangeportailcaptif/css/adipsys-cms.min.css">
+<!-- THEME BOOTSTRAP --><link href="/captiveportals/orangeportailcaptif/css/bootstrap.min.css" rel="stylesheet">
+<link href="/captiveportals/orangeportailcaptif/css/font-awesome.min.css" rel="stylesheet">
+<!-- <script src="js/bootstrap.min.js"></script> --><!-- THEME CSS --><link rel="stylesheet" type="text/css" media="screen" href="/captiveportals/orangeportailcaptif/css/style.css">
+<link rel="shortcut icon" id="favicon" href="/captiveportals/orangeportailcaptif/images/7fba7a803bca62aa8be5b514fd3be70b.ico">
+<title>Orange WiFi</title>
+<!-- Declare here the css styles related with primary and secondary colors --><!-- Don't change the existing class names, only the attributs can change --><style type="text/css">
+            .text-primary-color { color: #E37200!important; }
+            .text-secondary-color { color: #F8FCFF!important; }
+            .background-primary-color {     background-color: #E37200!important; }
+            .background-secondary-color {  background-color: #F8FCFF!important; }
+            .border-primary-color { border-color : #E37200!important; }
+            .border-secondary-color { border-color: #F8FCFF!important; }
+        </style>
+<script type="text/javascript" src="/hotspot.php/javascript"></script>
+</head>
+<body>
+        <div id="wrap">
+            <div id="container" class="col-md-6 col-md-offset-3 container" style="background-color:rgba(255,255,255,0.1)!important;">
+            <!-- Make page fluid -->
+                <div class="row" id="hm-cms-autoid-81" name="hm-cms-autoid-81" style="position: relative; z-index: 90;">
+<div class="col-md-12">
+<div id="header">
+<div class="col-sm-12" id="logo"><img alt="" src="/captiveportals/orangeportailcaptif/images/logo-7fba7a803bca62aa8be5b514fd3be70b.JPG" style="width:100%;height:100%;max-width:128px;max-height:128px;" width="128" height="128"></div>
+
+<div class="col-sm-12">
+<h1 class="text-primary-color" id="title"><span style="color:#FFF0F5;">    Bienvenue sur Wifi orange</span></h1>
+
+<p>             <span style="color:#000000;">        <span style='font-size: 11pt; font-family: "Calibri", "sans-serif";'>Composez le<strong><span style="font-size:20px;"> #747# </span></strong>sur votre mobile Orange pour acheter un mot de passe.</span></span></p>
+</div>
+</div>
+</div>
+</div>
+
+                <div class="row">
+                    <!-- Page content -->
+                    <div id="content" class="col-md-12 full-page login">
+                        <div class="inside-block" id="main">
+                            <div class="row">
+                               <!-- START OF THE CONNECTION FORMS, NOTHING TO REMOVE, NOTHING TO CHANGE, NOTHING TO ADD -->
+                                <!-- ONLY THE TEXT BETWEEN <span> CAN BE MODIFIED -->
+                                <div id="connection" class="border-primary-color">
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('a[href^="http://"], a[href^="https://"]').click(function() {
+            href = $(this).attr('href');
+            target = $(this).attr("target") || "_self";
+            ajaxUrl = '/hotspot.php/stats/url'
+            ajaxAsync = (target == "_blank") ? true : false;
+
+            $.ajax({
+                url: ajaxUrl,
+                async: ajaxAsync,
+                type: 'POST',
+                data: "url="+encodeURIComponent(href)
+            }).success(function() {
+                if (ajaxAsync == false) {
+                    window.location.href = href;
+                }
+            });
+
+            if (ajaxAsync == false) {
+                return false;
+            }
+        });
+    })
+</script><script type="text/javascript">
+
+	$(document).ready(function()
+	{
+	    				     });
+
+</script><script type="text/javascript" src="/js/jquery/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" href="/css/jquery/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/jquery/datepicker/datepicker-fr.js" ></script>
+
+
+<script type="text/javascript">
+    function openCustomFieldsPopup(redirectUrl) {
+        $("#customFieldsPopup").dialog({
+            autoOpen: false,
+            closeOnEscape: false,
+            draggable: false,
+            height:'auto',
+            modal: true,
+            resizable: false,
+            width: 'auto'
+        });
+
+        $("#customFieldsPopup").parents().find('.ui-dialog-titlebar').remove();
+        $("#customFieldsPopup").css("position", "relative");
+        $("#customFieldsPopup").css("left", "0px");
+        $("#customFieldsPopup").css("top", "0px");
+        $("#customFieldsPopup").dialog('open');
+        $("#customFieldsPopup").attr('data-redirect', redirectUrl);
+    }
+
+    var checkSocialCustomFields = function(redirectUrl) {
+
+        
+        return true;
+    }
+
+	$(document).ready(function()
+	{
+		$('#signin-login').focus();
+		$('#login-submit').removeClass('hidden');
+        $('.area-link').click(function() {
+            if($(this).attr('id') == 'ticketnopassword-area-link') {
+                $('span.area-title','#connect-area').text(labelTicketNoPassword['title']);
+                $('label[for="notprefixed_username"]').text(labelTicketNoPassword['username']);
+                $('#login-submit').text(labelTicketNoPassword['button']);
+                $('#signin-password', '#loginform').parent().hide();
+                $('#show_password', '#loginform').parent().hide();
+                $('#signin-password','#loginform').val('NoPassword');
+            } else if($(this).attr('id') == 'connect-area-link') {
+                $('span.area-title','#connect-area').html(labelConnexionStandard['title']);
+                $('label[for="notprefixed_username"]').html(labelConnexionStandard['username']);
+                $('#login-submit').html(labelConnexionStandard['button']);
+                $('#signin-password','#loginform').val('');
+                $('#signin-password', '#loginform').parent().show();
+                $('#show_password', '#loginform').parent().show();
+            }
+            $('.area:not(.links)').hide();
+            $('.area-link').parent().show();
+            $(this).parent().hide();
+            area_id = $(this).attr('id').replace(/-link/g, '');
+            if(area_id == 'ticketnopassword-area') {
+                $('#connect-area').show();
+                $('#connect-area').removeClass('hidden');
+            } else {
+                $('#'+area_id).show();
+                $('#'+area_id).removeClass('hidden');
+            }
+
+            if($('#social_connect').is('not:empty')){
+                $(this).show();
+            }
+
+            return false;
+        });
+
+        var connectAreaId;
+        var stored_area_id = $.cookie('stored_area_id');
+        if (stored_area_id !== null) {
+            connectAreaId = stored_area_id;
+            $('#'+stored_area_id+'-link').click();
+        } else {
+            connectAreaId = 'connect-area';
+            $('#connect-area-link').click();
+        }
+        	});
+</script>
+
+
+
+<style type="text/css">
+    #twitterconnect-area-link {
+        background-color: #1b95e0;
+    }
+    #twitterconnect-area-link:before {
+        content: "\f081";
+        display: inline-block;
+        padding: 0 10px;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        color: #FFFFFF;
+    }
+    #mobileconnect-area {
+        text-align: center !important;
+    }
+    #mobileconnect-area-link {
+        color: #FFFFFF !important;
+        border-radius: 4px !important;
+        background: #6D6586 url('/images/mobileconnect.png') no-repeat left !important;
+        background-size: 40px !important;
+        font-weight: bold !important;
+        width: auto !important;
+        padding: 10px 20px 10px 60px !important;
+    }
+    #facebookconnect-area-link {
+        background-color: #3b5998;
+    }
+    #facebookconnect-area-link:before {
+        content: "\f082";
+        display: inline-block;
+        padding: 0 10px;
+        font: normal normal normal 16px/1 FontAwesome!important;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        color: #FFFFFF;
+    }
+    #linkedinconnect-area-link {
+        background-color: #0077B5;
+    }
+    #linkedinconnect-area-link:before {
+        content: "\f08c";
+        display: inline-block;
+        padding: 0 10px;
+        font: normal normal normal 16px/1 FontAwesome!important;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        color: #FFFFFF;
+    }
+    #social_connect {
+        color: #FF0000;
+        font-weight: bold;
+        text-align: center;
+    }
+    .double-optin-options {
+        margin-left: 20px;
+    }
+    .optin-button-yes {
+        background-color: #03c05c;
+        box-sizing: border-box;
+    }
+    .optin-button-no {
+        background-color: #ff4e02;
+        box-sizing: border-box;
+    }
+    .optin-button-yes-first, .optin-button-no-first {
+        font-size: 14px;
+    }
+    .optin-button-yes-second, .optin-button-no-second {
+        font-size: 9px;
+    }
+    .optin-button-container {
+        display: flex;
+        align-items: center;
+    }
+    .optin-button-icon {
+        left: 20px;
+        float: left;
+        display: block;
+    }
+    .optin-button-text-container {
+        margin-left: 20%;
+    }
+</style>
+
+
+
+<script type="text/javascript">
+    var studio_post_url;
+    var area_id;
+    var preauthenticated = false;
+    
+    var openWaitingPopup = function() {
+            }
+
+    var closeWaitingPopup = function() {
+            }
+
+    var preauth = function() {
+    	$('.errors').addClass('hidden');
+        $('#connect-messages').html('');
+        if($('#signin-request-flag').val() == 0) {
+            var prefix = 'ZONE_1-';
+            var username =  $('#signin-login').val();
+            //** Depricated HM-893
+            //                var realm = '';
+            
+            $('#signin-username').val(prefix+username);
+
+            
+            $.ajax({
+                type: "POST",
+                url: '/hotspot.php/preauth',
+                data: $('#loginform').serialize(),
+                dataType: 'json',
+                cache: false,
+                beforeSend: function(jqXHR, settings) {
+                    $('label').removeAttr('style');
+                    $('#signin-request-flag').val(1);
+                                    },
+                success: function(o) {
+                    $('#signin-request-flag').val(0);
+
+                    if(o.result == 1) {
+                        studio_post_url = o.studio_post_url;
+                        preauthenticated = true;
+
+                        
+                        $('#signin-username').val(o.username);
+                        $("#loginform").submit();
+
+                    } else if(o.result == 3) {
+                    	$('a.fancybox').trigger('click');
+                    }
+                    else {
+                        
+                        if (o.selfcare == 1) {
+                            window.location = '/hotspot.php/overview?error=1&message='+o.codes[0];
+                            return;
+                        }
+
+                        var messages = o.messages;
+                        var codes = o.codes;
+                        var error_custom_field = o.errorCustomfield;
+                        var showError = true;
+
+                                                    //** Depricated HM-893
+//                            if (messages.length == 1 && codes[0] === 'username') {
+//                                preauthenticated = true;
+//                                $('#signin-username').val(username); //                                $("#loginform").submit(); //                                return;
+//                            }
+                        
+                        for(var i in error_custom_field) {
+                            $('label[for="'+error_custom_field[i]+'"]').attr('style','color:#FF0000;');
+                        }
+
+                        var errors = o.errors;
+                        for (var field_name in errors) {
+                            $('#error_'+field_name).html(errors[field_name]).removeClass('hidden');
+                        }
+
+                        var html = '<ul>';
+
+                        for(var i = 0 ; i < messages.length ; i++)
+                        {
+                            html += '<li>' + messages[i] + '</li>';
+                            if(codes[i] == 'firstlogin')
+                            {
+                                showError = false;
+                                $('.voucher-identity').removeClass('hidden');
+                            }
+                        }
+                        html += '</ul>';
+
+                        $('#connect-messages, #facebookconnect-messages').addClass('failure');
+                        $('#connect-messages, #facebookconnect-messages').html(html);
+                        
+                        if (showError) {
+                            spotnik.showFailureMessage();
+                        }
+                    }
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrows) {
+                    $('#signin-request-flag').val(0);
+                                        spotnik.showFailureMessage();
+                }
+            });
+        }
+    }
+
+    $(document).ready(function() {
+        
+        $('#loginform').submit(function() {
+            if(preauthenticated) {
+                var now = new Date();
+                var validity = new Date(now.getTime() + 10*1000);
+                $.cookie('stored_area_id', area_id, { expires: validity });
+                if (studio_post_url !== undefined) {
+                    $.ajax({
+                        type: "POST",
+                        url: '/hotspot.php/login/studio/post',
+                        success: function(o) {
+                            $(location).attr('href', studio_post_url);
+                        },
+                    });
+                    return false;
+                }
+                return true;
+            } else {
+                preauth();
+                return false;
+            }
+        });
+
+        
+            });
+</script>
+
+<div id="connect-area" class="area" style="display:none">
+        
+<span class="area-title text-primary-color">Connexion</span>
+<div id="connect-messages" class="messages"></div>
+<form action="/hotspot.php/ruckus/VSZoneHS/login" method="POST" id="loginform" class="login-form">
+    <input id="signin-request-flag" type="hidden" name="request_flag" /><input id="signin-username" type="hidden" name="username" /><input type="hidden" name="connexion_mode" value="1" id="connexion_mode" /><input type="hidden" name="url" value="http://download.jetbrains.com/idea/j2ee_libs/JavaEE/6/javax.ejb.jar" id="url" /><input type="hidden" name="proxy" value="0" id="proxy" /><input type="hidden" name="uip" value="ENCdb35d8aaac840d90df93e7ed29529bd2" id="uip" /><input type="hidden" name="client-mac" value="ENCfde6a0f12a1871a2891e898ad392fc57e80002dc92d327a4" id="client-mac" />    <ul>
+        <li id="li-signin-login">
+            <label for="notprefixed_username" class="form-label">Numéro de téléphone</label>            <input id="signin-login" class="form-text" tabindex="1" type="text" name="notprefixed_username" />            <div class="errors hidden" id="error_notprefixed_username"></div>
+        </li>
+        <li id="li-signin-password">
+            <label for="password" class="form-label">Mot de passe</label>            <input id="signin-password" class="form-text" tabindex="2" type="password" name="password" />            <div class="errors hidden" id="error_password"></div>
+        </li>
+        <li id="li-show-password">
+                        <input type="checkbox" name="show_password" id="show_password" />            <span for="">Afficher le mot de passe</span>
+        </li>
+                                            </ul>
+    <div align="center">
+        <button type="submit" class="submit background-primary-color shadow-secondary-color hidden" id="login-submit" name="login-submit">Connexion</button>
+    </div>
+</form>
+
+
+
+<script type="text/javascript">
+        var labelConnexionStandard = [];
+        labelConnexionStandard['title'] = "Connexion";
+        labelConnexionStandard['username'] = "Numéro de téléphone";
+        labelConnexionStandard['button'] = "Connexion";
+
+        var labelTicketNoPassword = [];
+        labelTicketNoPassword['title'] = "Coupon sans mot de passe";
+        labelTicketNoPassword['username'] = "Identifiant";
+        labelTicketNoPassword['button'] = "Connexion";
+
+</script></div><style>
+.mobileconnect .error {
+    background  :   url("/images/error-large-icon.png") no-repeat left center;
+    color       :   #FF0000;
+    display         :   inline-block;
+    font-weight     :   bold;
+    font-size       :   14px;
+    margin          :   0px auto 10px;
+    min-height      :   45px;
+    padding-left    :   50px;
+}
+</style>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+                    $('#tshoko-iframe').remove();
+                $('#accountcreation-area-link').on('click', function() {
+    		$('a.fancybox').trigger('click');
+        });
+    });
+</script>
+
+
+    
+    <div class="area links">
+        <div class="connect-links">
+            <ul>
+                                    <li class="arrow-link"><a id="connect-area-link" class="area-link text-secondary-color" href="javascript:void(0);" title="Connexion"><span class="text-primary-color">Connexion</span></a></li>
+                                                                                                                                                                                                                                                            </ul>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var newInput;
+        var inputPasswordId = "signin-password";
+        var inputPasswordConfirmId = false;
+        var showPassword = $("#show_password");
+
+        if (!$.browser.msie) {
+            if (showPassword.length != 0 && $("#"+inputPasswordId).length != 0) {
+                showPassword.change(function() {
+                    inputPassword = $("#"+inputPasswordId);
+
+                    if (showPassword.is(':checked')) {
+                        newInput = inputPassword.clone(true).attr('type', 'text');
+                        if (inputPasswordConfirmId != false) {
+                            newInputConfirm = $("#"+inputPasswordConfirmId).clone().attr('type', 'text');
+                        }
+                    } else {
+                        newInput = inputPassword.clone(true).attr('type', 'password');
+                        if (inputPasswordConfirmId != false) {
+                            newInputConfirm = $("#"+inputPasswordConfirmId).clone().attr('type', 'password');
+                        }
+                    }
+
+                    inputPassword.replaceWith(newInput);
+                    if (inputPasswordConfirmId != false) {
+                        $("#"+inputPasswordConfirmId).replaceWith(newInputConfirm);
+                    }
+                });
+                showPassword.trigger('change');
+            }
+        } else {
+            $('li#li-show-password').hide();
+        }
+
+    });
+</script></div>
+
+                                <nav class="navbar navbar-default"><div class="container-fluid" style="background-color:rgba(255,255,255,0.1)!important;">
+                                        <div id="menu" class="navbar-collapse">
+                                             <ul class="nav navbar-nav">
+<li id="menu-selfcare"><a class="text-secondary-color" href="/hotspot.php/overview"><span class="text-primary-color">Espace client</span></a></li>
+                                                <li id="menu-faq"><a class="text-secondary-color" href="/hotspot.php/faq"><span class="text-primary-color">FAQ</span></a></li>
+                                                
+                                            </ul>
+</div>
+                                    </div>
+                                </nav><div id="footer">
+                                    <div id="footer-content" class="hm-cms" style="position: relative; z-index: 0;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

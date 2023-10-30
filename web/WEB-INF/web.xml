@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0"
+         metadata-complete="true">
+
+    <listener>
+        <listener-class>com.biblio.config.initialisationDAOFactory</listener-class>
+    </listener>
+
+    <!-- Servlet livre -->
+
+    <servlet>
+        <servlet-name>LivreServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.LivreServlet</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>LivreServlet</servlet-name>
+         <url-pattern>/livre</url-pattern>
+     </servlet-mapping>
+
+    <!-- Fin Servlet livre -->
+
+    <!-- Servlet lecteur -->
+
+    <servlet>
+        <servlet-name>LecteurServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.LecteurServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LecteurServlet</servlet-name>
+        <url-pattern>/lecteur</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet lecteur -->
+
+    <!-- Servlet Prets -->
+
+    <servlet>
+        <servlet-name>pretsServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.pretsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>pretsServlet</servlet-name>
+        <url-pattern>/prets</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet Prets -->
+
+
+    <!-- Servlet suppresion lecteur -->
+
+    <servlet>
+        <servlet-name>SuppressionLecteurServelet</servlet-name>
+        <servlet-class>com.biblio.servlet.SuppressionLecteurServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuppressionLecteurServelet</servlet-name>
+        <url-pattern>/suppressionLecteur</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet suppression lecteur -->
+
+    <!-- Servlet modification lecteur -->
+
+    <servlet>
+        <servlet-name>ModificationLecteurServelet</servlet-name>
+        <servlet-class>com.biblio.servlet.ModificationLecteurServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModificationLecteurServelet</servlet-name>
+        <url-pattern>/ModificationLecteur</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet modification lecteur -->
+
+    <!-- Servlet modification livre -->
+
+    <servlet>
+        <servlet-name>ModificationLivreServelet</servlet-name>
+        <servlet-class>com.biblio.servlet.ModificationLivreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModificationLivreServelet</servlet-name>
+        <url-pattern>/ModificationLivre</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet modification livre -->
+
+    <!-- Servlet modification Pret -->
+
+    <servlet>
+        <servlet-name>ModificationPretServelet</servlet-name>
+        <servlet-class>com.biblio.servlet.ModificationPretServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModificationPretServelet</servlet-name>
+        <url-pattern>/ModificationPret</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet modification Pret -->
+
+    <!-- Servlet suppresion livre -->
+
+    <servlet>
+        <servlet-name>SuppressionLivreServelet</servlet-name>
+        <servlet-class>com.biblio.servlet.SuppressionLivreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuppressionLivreServelet</servlet-name>
+        <url-pattern>/suppressionLivre</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet suppression livre -->
+
+    <!-- Servlet Rendre Pret -->
+
+    <servlet>
+        <servlet-name>RendrePretServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.RendrePretServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RendrePretServlet</servlet-name>
+        <url-pattern>/RendrePret</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet Rendre Pret -->
+
+    <!-- Servlet Suppression pret -->
+
+    <servlet>
+        <servlet-name>SuppressionPretServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.SuppressionPretServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SuppressionPretServlet</servlet-name>
+        <url-pattern>/SuppressionPret</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet Suppression Pret -->
+
+    <!-- Servlet Recherche entre deux dates -->
+
+    <servlet>
+        <servlet-name>Recherche2dateServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.Recherche2dateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Recherche2dateServlet</servlet-name>
+        <url-pattern>/Recherche2date</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet Recherche entre deux dates -->
+
+    <!-- Servlet Recherche Lecteur -->
+
+    <servlet>
+        <servlet-name>RechercheLecteurServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.RechercheLecteurServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RechercheLecteurServlet</servlet-name>
+        <url-pattern>/RechercheLecteur</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet Recherche Lecteur -->
+
+
+    <!-- Servlet Recherche Livre -->
+
+    <servlet>
+        <servlet-name>RechercheLivreServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.RechercheLivreServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RechercheLivreServlet</servlet-name>
+        <url-pattern>/RechercheLivre</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet Recherche Livre -->
+
+    <!-- Servlet Recherche Pret -->
+
+    <servlet>
+        <servlet-name>RecherchePretServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.RecherchePretServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RecherchePretServlet</servlet-name>
+        <url-pattern>/RecherchePret</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet Recherche Pret -->
+
+    <!-- Servlet histogramme-->
+
+    <servlet>
+        <servlet-name>HistogrammeServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.HistogrammeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HistogrammeServlet</servlet-name>
+        <url-pattern>/Histogramme</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet histogramme -->
+
+    <!-- Servlet histogramme-->
+
+    <servlet>
+        <servlet-name>ListePretServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.ListePretServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListePretServlet</servlet-name>
+        <url-pattern>/ListePret</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet histogramme -->
+    <servlet>
+        <servlet-name>RendreEnRetardServlet</servlet-name>
+        <servlet-class>com.biblio.servlet.RendreEnRetardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RendreEnRetardServlet</servlet-name>
+        <url-pattern>/RendreEnRetard</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Servlet histogramme-->
+
+    <servlet>
+        <servlet-name>ListePretEnRetard</servlet-name>
+        <servlet-class>com.biblio.servlet.ListeEnRetardServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListePretEnRetard</servlet-name>
+        <url-pattern>/ListeRetard</url-pattern>
+    </servlet-mapping>
+
+    <!-- Fin Servlet histogramme -->
+
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-prelude>/WEB-INF/taglibs.jsp</include-prelude>
+        </jsp-property-group>
+    </jsp-config>
+    
+    <filter>
+        <filter-name>PrechargementFilter</filter-name>
+        <filter-class>com.biblio.filters.PrechargementFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>PrechargementFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+
+    <filter>
+        <filter-name>Set character encoding</filter-name>
+        <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ignore</param-name>
+            <param-value>false</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>Set character encoding</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+</web-app>

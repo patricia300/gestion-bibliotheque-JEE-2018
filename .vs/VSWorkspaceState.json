@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\com",
+    "\\src\\com\\biblio",
+    "\\src\\com\\biblio\\dao",
+    "\\src\\com\\biblio\\filters",
+    "\\src\\com\\biblio\\forms"
+  ],
+  "SelectedNode": "\\src\\com\\biblio\\forms\\LecteurForm.java",
+  "PreviewInSolutionExplorer": false
+}
